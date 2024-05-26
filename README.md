@@ -1,6 +1,6 @@
 # Soal Latihan Praktikum ( Pegawai )
 
-![alt text](picture/tabel1.PNG)
+![tabel1](https://github.com/arjuna46/pratikum3/assets/147571007/465e569d-f22e-4a18-accd-fd5bd45a39ca)
 
 **Perintah SQL :**
 
@@ -20,7 +20,7 @@ CREATE TABLE pegawai (
 
 ***Output :***
 
-![alt text](picture/1.PNG)
+![1](https://github.com/arjuna46/pratikum3/assets/147571007/e3b4a559-1c05-40f8-9851-ec724e1268b0)
 
 ```
 INSERT INTO pegawai VALUES
@@ -34,7 +34,8 @@ INSERT INTO pegawai VALUES
 
 ***Output :***
 
-![alt text](picture/1.1.PNG)
+![1 1](https://github.com/arjuna46/pratikum3/assets/147571007/3de3ce4b-7f1b-475f-81bd-d4604838935e)
+
 
 ## Tugas Praktikum
 
@@ -46,7 +47,7 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-![alt text](picture/1.2.PNG)
+![1 2](https://github.com/arjuna46/pratikum3/assets/147571007/84f14a7d-f587-4ec2-b6be-279077f99706)
 
 **2. Tampilkan pegawai yang tunjangannya NULL!**
 
@@ -56,7 +57,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NULL;
 
 ***Output :***
  
-![alt text](picture/1.3.PNG)
+![1 3](https://github.com/arjuna46/pratikum3/assets/147571007/78adf027-ff23-4d81-b778-a02d2bd1881e)
 
 **3. Tampilkan pegawai yang tunjangannya tidak NULL!**
 
@@ -66,7 +67,8 @@ SELECT*FROM pegawai WHERE tunjangan IS NOT NULL;
 
 ***Output :***
 f
-![alt text](picture/1.4.PNG)
+
+![1 4](https://github.com/arjuna46/pratikum3/assets/147571007/12448851-18f1-444e-a3e8-ea9f9a16d4e4)
 
 **4. Tampilkan/hitung jumlah baris/record tabel pegawai!**
 
@@ -76,7 +78,7 @@ SELECT COUNT(*) AS jmlh_pegawai FROM pegawai;
 
 ***Output :***
 
-![alt text](picture/1.5.PNG)
+![1 5](https://github.com/arjuna46/pratikum3/assets/147571007/76b38eae-30da-4795-9e9b-fcca81c975a5)
 
 **5. Tampilkan/hitung jumlah total gaji di tabel pegawai!**
 
@@ -85,8 +87,7 @@ SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
 ```
 
 ***Output :***
-
-![alt text](picture/1.6.PNG)
+![1 6](https://github.com/arjuna46/pratikum3/assets/147571007/d80ac662-afc6-46bc-b745-836b3618fd77)
 
 **6. Tampilkan/hitung rata-rata gaji pegawai!**
 
@@ -96,7 +97,7 @@ SELECT AVG(gaji) AS mean_gaji FROM pegawai;
 
 ***Output :***
 
-![alt text](picture/1.7.PNG)
+![1 7](https://github.com/arjuna46/pratikum3/assets/147571007/70fc8d8f-8ec1-43c6-aa28-6c2069208ffc)
 
 **7. Tampilkan gaji terkecil!**
 
@@ -106,7 +107,7 @@ SELECT MIN(gaji) AS terkecil FROM pegawai;
 
 ***Output :***
 
-![alt text](picture/1.8.PNG)
+![1 8](https://github.com/arjuna46/pratikum3/assets/147571007/5f715362-c8f8-4316-b52e-b1274b554ebf)
 
 **8. Tampilkan gaji terbesar!**
 
@@ -116,11 +117,11 @@ SELECT MAX(gaji) AS terbesar FROM pegawai;
 
 ***Output :***
 
-![alt text](picture/1.9.PNG)
+![1 9](https://github.com/arjuna46/pratikum3/assets/147571007/3b498f7f-06eb-4e61-b45d-d69e94879408)
 
 # Soal Latihan Praktikum ( Hewan )
 
-![alt text](picture/tabel2.PNG)
+![tabel2](https://github.com/arjuna46/pratikum3/assets/147571007/a1519303-2ed1-4b3e-9e99-d191f67f5847)
 
 **Perintah SQL :**
 
@@ -136,7 +137,8 @@ CREATE TABLE hewan (
 
 ***Output :***
 
-![alt text](picture/2.PNG)
+![2](https://github.com/arjuna46/pratikum3/assets/147571007/c56179e2-4962-4e6e-b381-652589f6d776)
+
 
 ```
 INSERT INTO hewan VALUES
@@ -153,7 +155,8 @@ INSERT INTO hewan VALUES
 
 ***Output :***
 
-![alt text](picture/2.1.PNG)
+![2 1](https://github.com/arjuna46/pratikum3/assets/147571007/795a7046-739c-40ae-9d63-aad992d60de3)
+
 
 ## Tugas Praktikum
 
@@ -165,7 +168,8 @@ SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
 
 ***Output :***
 
-![alt text](picture/2.2.PNG)
+![2 2](https://github.com/arjuna46/pratikum3/assets/147571007/4c4046e9-edc4-44a9-8292-63f113aad387)
+
 
 **2. Tampilkan jumlah hewan berdasarkan spesies**
 
@@ -174,8 +178,8 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 ```
 
 ***Output :***
+![2 3](https://github.com/arjuna46/pratikum3/assets/147571007/54f9d282-d72e-41a1-ac3e-5b4ca13e44e4)
 
-![alt text](picture/2.3.PNG)
 
 **3. Tampilkan jumlah hewan berdasarkan jenis kelamin**
 
@@ -185,7 +189,8 @@ SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
 
 ***Output :***
 
-![alt text](picture/2.4.PNG)
+![2 4](https://github.com/arjuna46/pratikum3/assets/147571007/a5e1517a-856a-4938-ac90-c22114bb3b9d)
+
 
 **4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin**
 
@@ -195,7 +200,7 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
 
 ***Output :***
 
-![alt text](picture/2.5.PNG)
+![2 5](https://github.com/arjuna46/pratikum3/assets/147571007/8bf72227-ae6f-47e0-8faa-107fb2348615)
 
 **5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin**
 
@@ -207,7 +212,7 @@ GROUP BY species, sex;
 
 ***Output :***
 
-![alt text](picture/2.6.PNG)
+![2 6](https://github.com/arjuna46/pratikum3/assets/147571007/379d0146-ecb4-48ac-be3e-ca47e6e1393b)
 
 **6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja**
 
@@ -217,7 +222,8 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 
 ***Output :***
 
-![alt text](picture/2.7.PNG)
+![2 7](https://github.com/arjuna46/pratikum3/assets/147571007/703d40ed-0acd-42b9-afe2-4266624e5664)
+
 
 ## Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
 
